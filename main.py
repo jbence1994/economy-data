@@ -1,5 +1,5 @@
-from fileProcessingUtils import process
-from uiUtils import create_economy_data_plot
+from data_processing.file_processor import process
+from ui.ui_utils import create_economy_data_plot
 
 create_economy_data_plot(
     source=process('data_sources/inflation/forint_inflation_rate.json'),

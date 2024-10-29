@@ -1,6 +1,6 @@
 import json
 
-from EconomyData import EconomyData
+from model.economy_data import EconomyData
 
 
 def process(file_name):
