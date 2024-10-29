@@ -6,7 +6,7 @@ from ForintInterestRate import ForintInterestRate
 
 def getInflationRates():
     inflationRates = []
-    with open('forint-inflation.json') as file:
+    with open('forint_inflation_rate.json') as file:
         data = json.load(file)
         for index, item in enumerate(data):
             inflationRates.append(
@@ -21,15 +21,13 @@ def getInflationRates():
 
 def getInterestRates():
     forintInterestRates = []
-    with open('forint-interest-rates.txt') as file:
-        data = file.readlines()
-        for line in data:
-            parts = line.strip().split(';')
+    with open('forint_interest_rate.json') as file:
+        data = json.load(file)
+        for index, item in enumerate(data):
             forintInterestRates.append(
                 ForintInterestRate(
-                    date=parts[0],
-                    rate=parts[1],
+                    date=item['date'],
+                    rate=item['rate'],
                 )
             )
-
-    return forintInterestRates[::-1]
+    return forintInterestRates
