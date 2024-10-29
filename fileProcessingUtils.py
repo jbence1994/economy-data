@@ -1,32 +1,14 @@
 import json
 
-from ForintInflationRate import ForintInflationRate
-from ForintInterestRate import ForintInterestRate
+from EconomyData import EconomyData
 
 
-def getInflationRates():
-    inflationRates = []
-    with open('forint_inflation_rate.json') as file:
+def process(file_name):
+    economy_data = []
+
+    with open(file_name) as file:
         data = json.load(file)
         for index, item in enumerate(data):
-            inflationRates.append(
-                ForintInflationRate(
-                    date=item['date'],
-                    rate=item['rate'],
-                )
-            )
-    return inflationRates
+            economy_data.append(EconomyData(date=item['date'], rate=item['rate']))
 
-
-def getInterestRates():
-    forintInterestRates = []
-    with open('forint_interest_rate.json') as file:
-        data = json.load(file)
-        for index, item in enumerate(data):
-            forintInterestRates.append(
-                ForintInterestRate(
-                    date=item['date'],
-                    rate=item['rate'],
-                )
-            )
-    return forintInterestRates
+    return economy_data
