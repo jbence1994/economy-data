@@ -36,7 +36,7 @@ def display_interest_rate(source):
     pyplot.plot(interest_rate_values, marker='o')
 
     for i, rate in enumerate(interest_rate_values):
-        pyplot.text(i, rate, f"{rate}", ha='right', va='top')
+        pyplot.text(i, rate, f"{rate}", ha='right', va='bottom')
 
     pyplot.xticks(ticks=range(len(interest_rate_dates)), labels=interest_rate_dates, rotation=45)
 
