@@ -11,9 +11,8 @@ def getInflationRates():
         for index, item in enumerate(data):
             inflationRates.append(
                 ForintInflationRate(
-                    year=item['year'],
-                    month=item['month'],
-                    rate=item['rate']['prevYear'],
+                    date=item['date'],
+                    rate=item['rate'],
                 )
             )
     return inflationRates
