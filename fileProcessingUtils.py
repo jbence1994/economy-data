@@ -32,4 +32,4 @@ def getInterestRates():
                 )
             )
 
-    return forintInterestRates
+    return forintInterestRates[::-1]
