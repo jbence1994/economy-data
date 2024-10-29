@@ -1,0 +1,98 @@
+[
+    {
+        "year": 2009,
+        "month": 1,
+        "rate": {
+            "prevYear": 3.1,
+            "prevMonth": 0.6
+        }
+    },
+    {
+        "year": 2009,
+        "month": 2,
+        "rate": {
+            "prevYear": 3.0,
+            "prevMonth": 1.0
+        }
+    },
+    {
+        "year": 2009,
+        "month": 3,
+        "rate": {
+            "prevYear": 2.9,
+            "prevMonth": 0.5
+        }
+    },
+    {
+        "year": 2009,
+        "month": 4,
+        "rate": {
+            "prevYear": 3.4,
+            "prevMonth": 0.8
+        }
+    },
+    {
+        "year": 2009,
+        "month": 5,
+        "rate": {
+            "prevYear": 3.8,
+            "prevMonth": 1.5
+        }
+    },
+    {
+        "year": 2009,
+        "month": 6,
+        "rate": {
+            "prevYear": 3.7,
+            "prevMonth": 0.1
+        }
+    },
+    {
+        "year": 2009,
+        "month": 7,
+        "rate": {
+            "prevYear": 5.1,
+            "prevMonth": 1.3
+        }
+    },
+    {
+        "year": 2009,
+        "month": 8,
+        "rate": {
+            "prevYear": 5.0,
+            "prevMonth": -0.3
+        }
+    },
+    {
+        "year": 2009,
+        "month": 9,
+        "rate": {
+            "prevYear": 4.9,
+            "prevMonth": -0.1
+        }
+    },
+    {
+        "year": 2009,
+        "month": 10,
+        "rate": {
+            "prevYear": 4.7,
+            "prevMonth": 0.0
+        }
+    },
+    {
+        "year": 2009,
+        "month": 11,
+        "rate": {
+            "prevYear": 5.2,
+            "prevMonth": 0.3
+        }
+    },
+    {
+        "year": 2009,
+        "month": 12,
+        "rate": {
+            "prevYear": 5.6,
+            "prevMonth": 0.0
+        }
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "year": 1990,
+        "month": 1,
+        "rate": {
+            "prevYear": 28.88,
+            "prevMonth": 2.1368
+        }
+    },
+    {
+        "year": 1990,
+        "month": 2,
+        "rate": {
+            "prevYear": 28.88,
+            "prevMonth": 2.1368
+        }
+    },
+    {
+        "year": 1990,
+        "month": 3,
+        "rate": {
+            "prevYear": 28.88,
+            "prevMonth": 2.1368
+        }
+    },
+    {
+        "year": 1990,
+        "month": 4,
+        "rate": {
+            "prevYear": 28.88,
+            "prevMonth": 2.1368
+        }
+    },
+    {
+        "year": 1990,
+        "month": 5,
+        "rate": {
+            "prevYear": 28.88,
+            "prevMonth": 2.1368
+        }
+    },
+    {
+        "year": 1990,
+        "month": 6,
+        "rate": {
+            "prevYear": 28.88,
+            "prevMonth": 2.1368
+        }
+    },
+    {
+        "year": 1990,
+        "month": 7,
+        "rate": {
+            "prevYear": 28.88,
+            "prevMonth": 2.1368
+        }
+    },
+    {
+        "year": 1990,
+        "month": 8,
+        "rate": {
+            "prevYear": 28.88,
+            "prevMonth": 2.1368
+        }
+    },
+    {
+        "year": 1990,
+        "month": 9,
+        "rate": {
+            "prevYear": 28.88,
+            "prevMonth": 2.1368
+        }
+    },
+    {
+        "year": 1990,
+        "month": 10,
+        "rate": {
+            "prevYear": 28.88,
+            "prevMonth": 2.1368
+        }
+    },
+    {
+        "year": 1990,
+        "month": 11,
+        "rate": {
+            "prevYear": 28.88,
+            "prevMonth": 2.1368
+        }
+    },
+    {
+        "year": 1990,
+        "month": 12,
+        "rate": {
+            "prevYear": 28.88,
+            "prevMonth": 2.1368
+        }
+    }
+]

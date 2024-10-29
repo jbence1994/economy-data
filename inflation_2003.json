@@ -1,0 +1,98 @@
+[
+    {
+        "year": 2003,
+        "month": 1,
+        "rate": {
+            "prevYear": 4.7,
+            "prevMonth": 1.2
+        }
+    },
+    {
+        "year": 2003,
+        "month": 2,
+        "rate": {
+            "prevYear": 4.5,
+            "prevMonth": 0.8
+        }
+    },
+    {
+        "year": 2003,
+        "month": 3,
+        "rate": {
+            "prevYear": 4.7,
+            "prevMonth": 0.9
+        }
+    },
+    {
+        "year": 2003,
+        "month": 4,
+        "rate": {
+            "prevYear": 3.9,
+            "prevMonth": 0.1
+        }
+    },
+    {
+        "year": 2003,
+        "month": 5,
+        "rate": {
+            "prevYear": 3.6,
+            "prevMonth": 0.3
+        }
+    },
+    {
+        "year": 2003,
+        "month": 6,
+        "rate": {
+            "prevYear": 4.3,
+            "prevMonth": 0.2
+        }
+    },
+    {
+        "year": 2003,
+        "month": 7,
+        "rate": {
+            "prevYear": 4.7,
+            "prevMonth": 0.3
+        }
+    },
+    {
+        "year": 2003,
+        "month": 8,
+        "rate": {
+            "prevYear": 4.7,
+            "prevMonth": -0.3
+        }
+    },
+    {
+        "year": 2003,
+        "month": 9,
+        "rate": {
+            "prevYear": 4.7,
+            "prevMonth": 0.6
+        }
+    },
+    {
+        "year": 2003,
+        "month": 10,
+        "rate": {
+            "prevYear": 4.9,
+            "prevMonth": 0.8
+        }
+    },
+    {
+        "year": 2003,
+        "month": 11,
+        "rate": {
+            "prevYear": 5.6,
+            "prevMonth": 0.6
+        }
+    },
+    {
+        "year": 2003,
+        "month": 12,
+        "rate": {
+            "prevYear": 5.7,
+            "prevMonth": 0.2
+        }
+    }
+]
