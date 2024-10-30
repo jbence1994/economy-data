@@ -1,16 +1,10 @@
 from data_processing.file_processor import process
 from ui.ui_utils import create_economy_data_plot
 
+# Sample code
 create_economy_data_plot(
-    source=process('sources/inflation/forint/all.json'),
-    title='Forint Inflation',
-    xlabel='Year',
-    ylabel='Rate'
-)
-
-create_economy_data_plot(
-    source=process('sources/interest_rates/forint/all.json'),
-    title='Forint Interest Rate',
-    xlabel='Year',
-    ylabel='Value',
+    source=process('Add the path for the processable source'),
+    title='Add a title',
+    xlabel='Add a label to the X axis',
+    ylabel='Add a label to the Y axis'
 )
