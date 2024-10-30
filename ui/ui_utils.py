@@ -9,10 +9,10 @@ def create_economy_data_plot(source, title, xlabel, ylabel):
         dates.append(economy_data.date)
         rates.append(economy_data.rate)
 
-    pyplot.plot(rates, marker='o')
+    pyplot.plot(rates, marker='.', linewidth=1)
 
     for i, rate in enumerate(rates):
-        pyplot.text(i, rate, f'{rate}%', ha='left', va='bottom')
+        pyplot.text(i, rate, f'{rate}%', ha='left', va='bottom', fontdict={'size': 12})
 
     pyplot.xticks(ticks=range(len(dates)), labels=dates, rotation=45)
 
