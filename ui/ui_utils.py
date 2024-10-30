@@ -1,7 +1,7 @@
 from matplotlib import pyplot
 
 
-def create_economy_data_plot(source, title, xlabel, ylabel):
+def create_economy_data_plot(source, width, height, title, xlabel, ylabel):
     dates = []
     rates = []
 
@@ -9,6 +9,7 @@ def create_economy_data_plot(source, title, xlabel, ylabel):
         dates.append(economy_data.date)
         rates.append(economy_data.rate)
 
+    pyplot.figure(figsize=(width, height))
     pyplot.plot(rates, marker='.', linewidth=1)
 
     for i, rate in enumerate(rates):
