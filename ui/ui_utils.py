@@ -16,7 +16,7 @@ def create_economy_data_plot(source, title, xlabel, ylabel):
 
     pyplot.xticks(ticks=range(len(dates)), labels=dates, rotation=45)
 
-    pyplot.title(title)
+    pyplot.title(title, fontdict={'fontsize': 15})
     pyplot.xlabel(xlabel)
     pyplot.ylabel(ylabel)
 
